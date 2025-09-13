@@ -100,7 +100,7 @@ export const generatePDF = async (req, res) => {
     if (getFieldValue(patientData.dailyServicesYesDescription))
       cleanedPatientData.dailyServicesYesDescription =
         patientData.dailyServicesYesDescription;
-    if (getFieldValue(patientData.lifeSustainingDesc))
+    if (getFieldValue(patientData.lifeSustainingDesc))         
       cleanedPatientData.lifeSustainingDesc = patientData.lifeSustainingDesc;
     if (getFieldValue(patientData.otherTherapyDesc))
       cleanedPatientData.otherTherapyDesc = patientData.otherTherapyDesc;
